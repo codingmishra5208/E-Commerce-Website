@@ -1,0 +1,289 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+    list-style: none;
+  
+
+}
+
+body{
+	height: 100%;
+	  background-color: #F9F9E0;
+}
+.menu-btn{
+	color: #424144;
+	font-size: 23px;
+	cursor: pointer;
+	display: none;
+}
+.menu{
+	cursor: pointer;
+}
+.navbar{
+	 display: flex;
+	 padding: 20px 5%;
+	 justify-content: space-between;
+	 align-items: center;
+	 position: sticky;
+	 z-index: 999;
+	 background-color: #f3f4f6;
+	 box-shadow: 0px 0px 14px rgba(0,0,0,0.3);
+	
+}
+.navbar .logo h1{
+	color: #424144;
+	border-bottom: 4px solid #fd6561;
+}
+.navbar .menu li .active{
+	 border-bottom: 4px solid #f63e4e;
+
+}
+
+.navbar .menu li{
+	 list-style: none;
+	 display: inline-block;
+	 margin-left: 20px;
+	 color: #424144;
+	 border-bottom: 4px solid transparent;
+	 text-decoration: none;
+	 font-size: 20px;
+	 font-weight: bold;
+
+
+}
+a{
+	text-decoration: none;	
+}
+ion-icon{
+	 color: red;
+	 font-size: 25px;
+}
+ .navbar.menu li a:hover{
+	 border-bottom: 4px solid #f63e4e;
+ }
+ .container{
+ 	 display: flex;
+ }
+ .content{
+ 	 height:400px;
+ 	 width: 45%;
+ 	 
+ }
+ .content h2{
+ 	 position: relative;
+ 	 top: 30%;
+ 	 left: 11%;
+ 	 font-size: 40px;
+ }
+ strong{
+ 	color: #C21292;
+ }
+ .content h1{
+ 	 position: relative;
+ 	 top:40%;
+ 	 left: 10%;
+
+ }
+ .content p{
+ 	  position: relative;
+ 	  top: 44%;
+ 	  left: 10%;
+ }
+ .content button{
+ 	  position: relative;
+ 	  top: 50%;
+ 	  left: 11%;
+ 	  height: 40px;
+ 	  width: 130px;
+ 	  font-size: 17px;
+ 	  font-weight: bold;
+        border:none;
+        cursor: pointer;
+        box-shadow: 0 0 5px cyan,
+                    0 0 25px cyan;
+ }
+ .content button:hover{
+ 	 box-shadow: 0 0 5px cyan,
+ 	 0 0 25px cyan, 0 0 50px cyan,
+ 	 0 0 100px cyan, 0 0 200px cyan;
+ }
+ 
+ .image img{
+      height: 400px;
+      width: 600px;
+      margin-top: 5%;
+      margin-left: 20px;
+      box-shadow: 0px 0px 14px rgba(0,0,0,0.3);
+ }
+ .section{
+ 	  height: 1950px;
+ 	  width: 100%;
+ 	  margin-top: 40px; 	 
+ 	 
+ }
+ .section h2{
+        text-align: center;
+         font-size: 40px;
+          color: #0F2167;
+          margin-top: 5%;
+       }
+       hr{
+         border-color: red;
+         border-width: 2px;
+         width: 120px;
+         margin-left: 45%;
+         margin-top: 1%;
+       }
+ .row1{
+ 	 height:200px;
+ 	 width: 80%;
+ 	 margin-top: 7%;
+ 	 display: flex;
+ 	 margin-left:10%;
+
+ }
+ .col1{
+ 	 height: 200px;
+ 	 width: 25%;
+ 	 margin-right: 10px;
+ 	 
+
+ }
+  img{
+ 	 height: 200px;
+ 	 width: 100%
+
+ }
+  .section img:hover{
+ 	transform: scale(1.1);
+ 	z-index: 2;
+ }
+ p{
+ 	color: brown;
+ 	font-size: 16px;
+ 	margin:5px 0px 5px 0px;
+ }
+ label{
+ 	 font-size: 17px;
+
+ }
+ button{
+ 	 margin-left: 80px;
+ 	 height: 30px;
+ 	 width: 80px;
+ 	 background-color: #F3F3F3;
+ 	 border-radius: 20px;
+ 	 color: red;
+ 	 border: none;
+ 	 font-size: 14px;
+ 	 cursor: pointer;
+ }
+ button:hover{
+ 	 background-color: red;
+ 	 color: #fff;
+ }
+.row2{
+	 height: 200px;
+	 width: 80%;
+	 margin-left: 130px;
+	 margin-top: 170px;
+	 display:flex;
+
+}
+.col2{
+	height:200px;
+	width: 25%;
+	margin-right: 10px;
+}
+.row3{
+	 height: 200px;
+	 width: 80%;
+	 margin-top: 170px;
+	 margin-left: 130px;
+	 display: flex;
+}
+.col3{
+	height: 200px;
+	width: 25%;
+	margin-right: 10px;
+}
+.row4{
+	 height: 200px;
+	 width: 80%;
+	 margin-top: 170px;
+	 margin-left: 130px;
+	 display: flex;
+}
+.col4{
+	height: 200px;
+	width: 25%;
+	margin-right: 10px;
+}
+.row5{
+	height: 200px;
+	width: 80%;
+	margin-top: 160px;
+	margin-left: 130px;
+	display: flex;
+}
+.col5{
+	 height: 200px;
+	 width: 25%;
+	 margin-right: 10px;
+
+}
+.footerContainer{
+	 height: 150px;
+	 width:100%;
+	 background-color: black;
+	 margin-top: 30px;
+	 padding-top: 15px;
+	  
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+	 text-decoration: none;
+	 padding: 10px;
+	 background-color: #fff;
+	 margin:10px;
+	 border-radius: 50%;
+}
+.socialicons a:hover{
+	 background-color: black;
+	 transition: 0.5s;
+}
+.footerNav ul{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+
+}
+.footerNav ul a{
+	 margin-right: 50px;
+	 color:#fff;
+}
+.footerbtn p{
+	 text-align: center;
+	 margin-top: 20px;
+     color: #fff;
+}
+.designer{
+	 color:orange;
+	 font-size: 15px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 547px){
+	.navbar{
+		width: 100%;
+	}
+	.container{
+		width: 100%;
+	}
+	.section{
+		 width: 100%;
+	}
+}
